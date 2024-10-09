@@ -1,0 +1,24 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+
+        background-attachment: yellow;
+        flex-grow: 1 ;
+}
+
+
+.header{
+    background-color: red;
+    height: 20vh;
+}
+
+.Footer{
+    background: blanchedalmond;
+    height: 20vh;
+}
