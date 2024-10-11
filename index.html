@@ -1,12 +1,60 @@
+
+<!--
+adresse ip :10.1.224.40 
+link page html : http://127.0.0.1:5500/index.html
+link github : https://github.com/leoESILV/CS_workshop_octobre/blob/main/index.html
+
+Page web telehone ( port 5500) : 10.1.224.148:5500
+-->
+
+<!-- 
+<p> paragraphe  </p>
+<script> Balise code JS </script> 
+ -->
+
+<!------- PROGRAMME ------------ -->
+<!-- 1 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ESP8266 WebSocket Control</title>
+    <link href="style.css" rel="stylesheet"> <!-- liens vers la page css-->
+   
 </head>
 <body>
-    
-    hello
+    <h1>Bienvenu sur l'ESP8266</h1>
+    <div class="info-box">
+        <p>L'ESP8266 est connecté au Wi-Fi et utilise WebSocket pour communiquer.</p>
+        <p id="status" class="status">Websocket en attente...</p>
+    </div>
+
+<!-- 2 -->
+    <h2> Control breadbord with ESP</h2>
+
+        <div>
+            <p>Motor ON/OFF</p>
+            <button id="motorButton" class="button">ON</button>
+        </div>
+        <div>
+            <p>LED ON/OFF</p>
+            <button id="ledButton" class="button">ON
+                
+            </button>
+        </div>
+        <div>
+            <p>Température : <span id="temperature">--°</span></p>
+        </div>
+    </div>
+
+    <!--  home iconne 
+    <img src="home.png" class="home-icon" alt="Home Icon" width="50" height="50"> -->
+
+   
+
+<!-- impoortation du fichier JS-->
+<script src="script.js"></script> 
+    </body>
 </body>
 </html>

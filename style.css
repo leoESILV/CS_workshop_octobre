@@ -1,24 +1,60 @@
 
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+     /* creation de mes class */
+    
+/* fond arriere */
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #e0dcdc;
+    text-align: center;
+}
+h1 {
+    background-color: #7b52b1;
+    color: white;
+    padding: 20px;
+    border-radius: 80px;
+}
+h2 {
+    margin: 20px ;
+    color: #7b52b1;
 }
 
-.main {
-
-        background-attachment: yellow;
-        flex-grow: 1 ;
+/* pour texte websocket connecté*/
+.status {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    color: green;
+}
+/* button ON/OFF > */
+.button {
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #7b52b1;
+    color: white;
+    border: none;
+    border-radius: 5px; /* congé */
+    font-size: 18px;
+    cursor: crosshair;
+}
+/* hover = quand on passe la souris desdus */
+.button:hover {
+    font-size : 23px;
+    background-color: #100821;
+}
+/* info box avec texte*/
+.info-box {
+    padding: 10px;
+    border: 1px solid #7b52b1;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
 }
 
-
-.header{
-    background-color: red;
-    height: 20vh;
-}
-
-.Footer{
-    background: blanchedalmond;
-    height: 20vh;
+/* teste importation icone google front 
+à faire apres*/
+/*
+.home-icon {               
+    margin-top: 20px;
+    cursor: pointer;
 }
